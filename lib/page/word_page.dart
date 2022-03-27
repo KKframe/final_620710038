@@ -126,13 +126,7 @@ class _WordsPageState extends State<WordsPage> {
 
     }
 
-    if(isCorrect){
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => WordsPage()),
-      );
-      count++;
-    }
+
 
 
   }
